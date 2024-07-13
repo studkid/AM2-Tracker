@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Energy Tank",
+        "codes": "EnergyTank",
+        "img": "images/EnergyTank.png",
+        "type": "consumable",
+        "max_quantity": 10
+    },
+    {
+        "name": "Missile",
+        "codes": "Missile",
+        "img": "images/Missile.png",
+        "type": "consumable",
+        "max_quantity": 44
+    },
+    {
+        "name": "Super Missile Tank",
+        "codes": "SuperMissile",
+        "img": "images/SuperMissile.png",
+        "type": "consumable",
+        "max_quantity": 10
+    },
+    {
+        "name": "Power Bomb Tank",
+        "codes": "PowerBomb",
+        "img": "images/PowerBomb.png",
+        "type": "consumable",
+        "max_quantity": 10
+    },
+    {
+        "name": "Charge Beam",
+        "codes": "Charge",
+        "img": "images/Charge.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Wave Beam",
+        "codes": "Wave",
+        "img": "images/Wave.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Spazer Beam",
+        "codes": "Spazer",
+        "img": "images/Spazer.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Plasma Beam",
+        "codes": "Plasma",
+        "img": "images/Plasma.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Ice Beam",
+        "codes": "Ice",
+        "img": "images/Ice.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Varia Suit",
+        "codes": "Varia",
+        "img": "images/Varia.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Gravity Suit",
+        "codes": "Gravity",
+        "img": "images/Gravity.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Bombs",
+        "codes": "Bombs",
+        "img": "images/Bombs.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Spider Ball",
+        "codes": "SpiderBall",
+        "img": "images/SpiderBall.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Hi-Jump Boots",
+        "codes": "HiJump",
+        "img": "images/HiJump.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Spring Ball",
+        "codes": "SpringBall",
+        "img": "images/SpringBall.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Space Jump",
+        "codes": "SpaceJump",
+        "img": "images/SpaceJump.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Speed Booster",
+        "codes": "SpeedBooster",
+        "img": "images/SpeedBooster.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Screw Attack",
+        "codes": "ScrewAttack",
+        "img": "images/ScrewAttack.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Metroids",
+        "codes": "Metroid",
+        "img": "images/Metroid.png",
+        "type": "consumable",
+        "max_quantity": 46
+    }
+]

@@ -1,0 +1,2443 @@
+[
+    {
+        "name": "Main Caves",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Main Caves: Spider Ball Challenge Upper",
+                "access_rules": [
+                    "$CanFly", "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1140,
+                        "y": 360
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Spider Ball Challenge Lower",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1140,
+                        "y": 382
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Hi-Jump Challenge",
+                "access_rules": [
+                    "$CanJump", "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1211,
+                        "y": 457
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Spiky Maze",
+                "access_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1189,
+                        "y": 552
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Shinespark Before The Pit",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1069,
+                        "y": 671
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Shinespark After The Pit",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1091,
+                        "y": 958
+                    }
+                ]
+            },
+
+            {
+                "name": "Main Caves: Freddy Fazbear",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1020,
+                        "y": 480
+                    }
+                ]
+            },
+
+            {
+                "name": "The Forgotten Alpha",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 517,
+                        "y": 336
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Golden Temple",
+        "access_rules": [],
+        "children": [
+
+            {
+                "name": "Golden Temple: Bomb Room",
+                "sections": [
+                    {
+                        "name": "Bombs",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Below Bombs",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CanBomb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1404,
+                        "y": 288
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Hidden Energy Tank",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1548,
+                        "y": 262
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Charge Beam",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1501,
+                        "y": 310
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Armory",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Upper",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lower",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1608,
+                        "y": 289
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Armory False Wall",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1643,
+                        "y": 289
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: 3-Orb Hallway",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1523,
+                        "y": 215
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Spider Ball",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1667,
+                        "y": 288
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Exterior Ceiling",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1548,
+                        "y": 145
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: EMP Room",
+                "access_rules": [
+                    "SuperMissile, $HasBallspark, $CanBomb, ScrewAttack"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1595,
+                        "y": 360
+                    }
+                ]
+            },
+
+            {
+                "name": "Guardian: Up Above",
+                "access_rules": [
+                    "$CanBomb, $CanSchmove, Bombs", "$CanFly"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1237,
+                        "y": 240
+                    }
+                ]
+            },
+
+            {
+                "name": "Guardian: Behind The Door",
+                "access_rules": [
+                    "$HasTwoPB, $CanFly", "$HasTwoPB, $CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1212,
+                        "y": 240
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple: Friendly Spider",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1668,
+                        "y": 191
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple Nest: Moe",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1524,
+                        "y": 335
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple Nest: Larry",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1307,
+                        "y": 360
+                    }
+                ]
+            },
+
+            {
+                "name": "Golden Temple Nest: Curly",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1451,
+                        "y": 360
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Hydro Station",
+        "access_rules": [],
+        "children": [
+
+            {
+                "name": "Hydro Station: Cliff",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 924,
+                        "y": 408
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Side Morph Tunnel",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 876,
+                        "y": 431
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Turbine Room",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 779,
+                        "y": 503
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Not So Secret Tunnel",
+                "access_rules": [
+                    "$CanSchmove"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 805,
+                        "y": 527
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Water Pressure Pre-Varia",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 876,
+                        "y": 455
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Varia Suit",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 778,
+                        "y": 455
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: EMP Room",
+                "access_rules": [
+                    "SuperMissile, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 612,
+                        "y": 479
+                    }
+                ]
+            },
+
+            {
+                "name": "Arachnus: Boss",
+                "access_rules": [
+                    "Bombs", "$HasFourPB"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 828,
+                        "y": 408
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Turbine Terror",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 527
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: The Lookout",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 732,
+                        "y": 385
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Recent Guardian",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 431
+                    }
+                ]
+            }
+
+        ]
+    },
+    
+    {
+        "name": "Inner Hydro Station",
+        "access_rules": ["ScrewAttack", "$CanBomb"],
+        "children": [
+
+            {
+                "name": "Hydro Station: Wave Beam",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 805,
+                        "y": 503
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Below Tower Pipe Upper",
+                "access_rules": [
+                    "$CanBomb, $CanSchmove"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 874,
+                        "y": 552
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Below Tower Pipe Lower",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 552
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Dead End",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 576
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Hi-Jump Boots",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 924,
+                        "y": 576
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Station: Behind Hi-Jump Boots",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Upper",
+                        "access_rules": [
+                            "$CanSchmove"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lower",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 874,
+                        "y": 576
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Hydro Nest",
+        "access_rules": ["$CanJump"],
+        "children": [
+
+            {
+                "name": "Hydro Nest: Below the Walkway",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 612,
+                        "y": 576
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: Speed Ceiling",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 516,
+                        "y": 505
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: Behind the Wall",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 493,
+                        "y": 505
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: EnderMahan",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 467,
+                        "y": 552
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: Carnage Awful",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 731,
+                        "y": 552
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: Venom Awesome",
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 731,
+                        "y": 600
+                    }
+                ]
+            },
+
+            {
+                "name": "Hydro Nest: Something More, Something Awesome",
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 612,
+                        "y": 623
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Industrial Complex Nest",
+        "access_rules": [],
+        "children": [
+
+            {
+                "name": "Industrial Complex: Above Save",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1260,
+                        "y": 529
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: EMP Room",
+                "access_rules": [
+                    "PowerBomb, SuperMissile, ScrewAttack"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1212,
+                        "y": 529
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex Nest: Nest Shine Spark",
+                "access_rules": [
+                    "SuperMissile, SpeedBooster, $CanSchmove, $CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1500,
+                        "y": 646
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: Mimolette",
+                "access_rules": [
+                    "SuperMissile", "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1307,
+                        "y": 623
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: The Big Cheese",
+                "access_rules": [
+                    "SuperMissile", "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1403,
+                        "y": 647
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: Mohwir",
+                "access_rules": [
+                    "$CanBomb, SuperMissile", "$CanBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1403,
+                        "y": 576
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: Chirn",
+                "access_rules": [
+                    "$CanBomb, SuperMissile", "$CanBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1451,
+                        "y": 576
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: BHHarbringer",
+                "access_rules": [
+                    "$CanBomb, $CanSchmove, SuperMissile", "$CanBomb, $CanSchmove, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1380,
+                        "y": 718
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Nest: The Abyssal Creature",
+                "access_rules": [
+                    "$CanBomb, $CanSchmove, SuperMissile", "$CanBomb, $CanSchmove, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1548,
+                        "y": 766
+                    }
+                ]
+            }
+
+        ]
+    },
+    
+    {
+        "name": "Industrial Complex",
+        "access_rules": ["SpeedBooster", "$CanBomb", "ScrewAttack"],
+        "children": [
+
+            {
+                "name": "Industrial Complex: In the Sand",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1403,
+                        "y": 551
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Complex Side After Tunnel",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider, $CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1596,
+                        "y": 506
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Complex Side Tunnel",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1572,
+                        "y": 506
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Behind the Green Door",
+                "access_rules": [
+                    "SpeedBooster, PowerBomb, SuperMissile, CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1644,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Industrial Complex: Save Room",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1572,
+                        "y": 480
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Spazer Beam",
+                "access_rules": [
+                    "SpeedBooster", "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1428,
+                        "y": 551
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Sisyphus Spark",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1572,
+                        "y": 528
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Speed Booster",
+                "access_rules": [
+                    "SpeedBooster", "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1452,
+                        "y": 599
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Sisyphus",
+                "access_rules": [
+                    "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1572,
+                        "y": 553
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: And then there's this Asshole",
+                "access_rules": [
+                    "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1763,
+                        "y": 553
+                    }
+                ]
+            },
+
+            {
+                "name": "Torizo Ascended: Boss",
+                "access_rules": [
+                    "$CanSchmove"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1476,
+                        "y": 528
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Conveyor Belt Room",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1740,
+                        "y": 600
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Doom Treadmill",
+                "access_rules": [
+                    "SpeedBooster, $CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1595,
+                        "y": 575
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Complex Hub Shinespark",
+                "access_rules": [
+                    "SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1740,
+                        "y": 625
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Complex Hub in the Floor",
+                "access_rules": [
+                    "SuperMissile, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1716,
+                        "y": 648
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Skippy Reward",
+                "access_rules": [
+                    "SpeedBooster, SuperMissile"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1740,
+                        "y": 744
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Guardian of Doom Treadmill",
+                "access_rules": [
+                    "SpeedBooster, $CanBomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1619,
+                        "y": 575
+                    }
+                ]
+            },
+
+            {
+                "name": "Industrial Complex: Rawsome1234 by the Lava Lake",
+                "access_rules": [
+                    "SpeedBooster, $CanBomb, Gravity", "SpeedBooster, $CanBomb, SpaceJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1763,
+                        "y": 719
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "GFS Throth",
+        "access_rules": [],
+        "children": [
+
+            {
+                "name": "GFS Thoth: Research Camp",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1092,
+                        "y": 551
+                    }
+                ]
+            },
+
+            {
+                "name": "GFS Thoth: Hornoad Room",
+                "access_rules": [
+                    "PowerBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 804,
+                        "y": 95
+                    }
+                ]
+            },
+
+            {
+                "name": "GFS Thoth: Outside Front of the Ship",
+                "access_rules": [
+                    "PowerBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1404,
+                        "y": 71
+                    }
+                ]
+            },
+
+            {
+                "name": "Genesis: Boss",
+                "access_rules": [
+                    "$HasTwoPB"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1188,
+                        "y": 95
+                    }
+                ]
+            },
+
+            {
+                "name": "GFS Thoth: Alphas",
+                "sections": [
+                    {
+                        "name": "Marco",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Polo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1045,
+                        "y": 551
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Mines",
+        "access_rules": ["SuperMissile"],
+        "children": [
+
+            {
+                "name": "Mines: Unga",
+                "access_rules": [
+                    "SuperMissile, $CanBomb, SpaceJump", "SuperMissile, $CanBomb, SpiderBall"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1188,
+                        "y": 888
+                    }
+                ]
+            },
+
+            {
+                "name": "Mines: Gunga",
+                "access_rules": [
+                    "SuperMissile, $CanBomb, SpaceJump", "SuperMissile, $CanBomb, SpiderBall"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1427,
+                        "y": 888
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "The Tower",
+        "access_rules": ["SuperMissile"],
+        "children": [
+
+            {
+                "name": "The Tower: Beside Hydro Pipe",
+                "access_rules": [
+                    "ScrewAttack"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 924,
+                        "y": 1008
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Right Side of Tower",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 875,
+                        "y": 984
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: In the Ceiling",
+                "access_rules": [
+                    "$CanBomb, SpaceJump", "$CanBomb, SpiderBall"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 804,
+                        "y": 625
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Dark Maze",
+                "access_rules": [
+                    "$HasFourPB", "Bombs, SpiderBall"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 827,
+                        "y": 696
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: After Dark Maze",
+                "access_rules": [
+                    "$HasFourPB", "Bombs, SpiderBall"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 671
+                    }
+                ]
+            },
+            
+            {
+                "name": "The Tower: Plasma Beam",
+                "access_rules": [
+                    "$CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 804,
+                        "y": 768
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: After Tester",
+                "access_rules": [
+                    "PowerBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 852,
+                        "y": 791
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Outside Reactor",
+                "access_rules": [
+                    "PowerBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 755,
+                        "y": 984
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Patricia",
+                "access_rules": [
+                    "$CanFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 900,
+                        "y": 767
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Variable \"GUH\"",
+                "access_rules": [
+                    "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 996,
+                        "y": 647
+                    }
+                ]
+            },
+
+            {
+                "name": "Ruler of The Tower: Slagathor",
+                "access_rules": [
+                    "$HasThreePB"
+                ],
+                "sections": [
+                    {
+                        "name": "Zeta Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 851,
+                        "y": 721
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Mr.Sandman",
+                "access_rules": [
+                    "SpaceJump", "HiJump, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 611,
+                        "y": 840
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Anakin",
+                "access_rules": [
+                    "SpaceJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Zeta Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1404,
+                        "y": 71
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Xander",
+                "access_rules": [
+                    "SpaceJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Zeta Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1018,
+                        "y": 864
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Geothermal",
+        "access_rules": ["SpeedBooster, PowerBomb"],
+        "children": [
+
+            {
+                "name": "The Tower: Geothermal Reactor",
+                "access_rules": [
+                    "PowerBomb, SpeedBooster, $CanSchmove"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 899,
+                        "y": 1369
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Post Reactor Chozo",
+                "access_rules": [
+                    "$HasThreePB, SpeedBooster, $CanSchmove"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 804,
+                        "y": 1080
+                    }
+                ]
+            },
+
+            {
+                "name": "The Tower: Post Reactor Shinespark",
+                "access_rules": [
+                    "$HasThreePB, SpeedBooster, $CanSchmove, SuperMissile"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 828,
+                        "y": 1080
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Distribution Center",
+        "access_rules": [],
+        "children": [
+
+            {
+                "name": "Distribution Center: Main Room Shinespark",
+                "access_rules": [
+                    "Gravity, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1283,
+                        "y": 1009
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Underwater Speed Hallway",
+                "access_rules": [
+                    "Gravity, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1427,
+                        "y": 1175
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: After EMP Activation",
+                "access_rules": [
+                    "ScrewAttack, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1524,
+                        "y": 1008
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Spider Ball Crumble Spike \"Maze\"",
+                "access_rules": [
+                    "SpiderBall, GravitySuit"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1644,
+                        "y": 1177
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Before Spiky Trial",
+                "access_rules": [
+                    "Ice", "Gravity, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1571,
+                        "y": 1248
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Spike Trial Shinespark",
+                "access_rules": [
+                    "Gravity, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1715,
+                        "y": 1248
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: After Spiky Trial",
+                "access_rules": [
+                    "Gravity, SpeedBooster, PowerBomb, SpaceJump"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1619,
+                        "y": 1224
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: ScrewAttack",
+                "access_rules": [
+                    "$CanSpider"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1763,
+                        "y": 1056
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Exterior Post-Gravity",
+                "access_rules": [
+                    "PowerBomb, SpaceJump, Gravity"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1740,
+                        "y": 1007
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Spectator Jail",
+                "access_rules": [
+                    "PowerBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1451,
+                        "y": 1032
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Before Gravity",
+                "access_rules": [
+                    "Bombs, Charge, ScrewAttack", "Bombs, Gravity, ScrewAttack", "PowerBomb, ScrewAttack"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1691,
+                        "y": 911
+                    }
+                ]
+            },
+
+            {
+                "name": "Distribution Center: Gravity Suit",
+                "access_rules": [
+                    "$CanBomb, ScrewAttack"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1668,
+                        "y": 936
+                    }
+                ]
+            },
+
+            {
+                "name": "Serris: Ice Beam",
+                "access_rules": [
+                    "Ice, SuperMissile", "Ice, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1571,
+                        "y": 1080
+                    }
+                ]
+            },
+
+            {
+                "name": "EMP: Sir Zeta Commander of the Alpha Squadron",
+                "access_rules": [
+                    "$CanBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Zeta Metroid",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1547,
+                        "y": 1104
+                    }
+                ]
+            },
+
+            {
+                "name": "Alpha Squadron",
+                "access_rules": [
+                    "$CanBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Timmy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tommy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Terry",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Telly",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Martin",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1632,
+                        "y": 1067
+                    }
+                ]
+            },
+
+            {
+                "name": "Underwater: Gamma Metroids",
+                "access_rules": [
+                    "$CanBomb, SpeedBooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Mario",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Luigi",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 1704,
+                        "y": 1139
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "name": "Deep Caves",
+        "access_rules": ["$CanDown"],
+        "children": [
+
+            {
+                "name": "Deep Caves: Drivel Ballspark",
+                "access_rules": [
+                    "Gravity, $HasBallspark"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 876,
+                        "y": 1249
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: Ramulken Lava Pool",
+                "access_rules": [
+                    "Gravity, $CanBomb"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 708,
+                        "y": 1272
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: After Omega",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 684,
+                        "y": 1105
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: Lil' Bro",
+                "sections": [
+                    {
+                        "name": "Alpha",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 444,
+                        "y": 1175
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: Big Sis",
+                "sections": [
+                    {
+                        "name": "Omega",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 611,
+                        "y": 1104
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: SA-X Queen Lucina",
+                "sections": [
+                    {
+                        "name": "Omega",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 348,
+                        "y": 792
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: Epsilon",
+                "sections": [
+                    {
+                        "name": "Omega",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 659,
+                        "y": 720
+                    }
+                ]
+            },
+
+            {
+                "name": "Deep Caves: Druid",
+                "sections": [
+                    {
+                        "name": "Omega",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "SR388",
+                        "x": 372,
+                        "y": 671
+                    }
+                ]
+            }
+
+        ]
+    }
+
+]
