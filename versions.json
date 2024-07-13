@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1",
+            "download_url": "https://github.com/studkid/AM2R-Tracker/releases/download/0.1/AM2R-Tracker.zip",
+            "sha256": "f33575f21aa3b65eceff12c42c97df4cd7a59755fad9f9dd6f06c9621074aa08",
+            "changelog": [
+                "Initial release"
+            ]
+        }
+    ]
+}
